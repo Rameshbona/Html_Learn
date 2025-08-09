@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+</head>
+<body>
+    <h4 style="color: deeppink;">Google Form</h4>
+    <p>Google form creation in a tabler way</p>
+    <!--forms ..types -->
+    <!-- text type, radio type , check box, Text area, Select type, button type-->
+    <form>
+        <div style="background-color: aqua;">
+        <label for="name"> Enter Details: </label>
+        <input type="text" placeholder="Enter Details" id="name" name="name"><br>
+
+    <table>
+        <tr>
+            <td>First Name : </td>
+            <td> <input type="text" placeholder="First Name"></td>
+        </tr>
+        <tr>
+            <td>Last Name : </td>
+            <td> <input type="text" placeholder="Last Name"></td>
+        </tr>
+        <tr>
+            <td>Password :</td> 
+            <td><input type="password" placeholder="Password"></td>
+        </tr>
+        <tr>
+            <td>Gender: </td>
+            <td> 
+                <input type="radio" name="Gender">Male
+                <input type="radio" name="Gender">Female
+            </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" placeholder="Email" name="email"></td>
+        </tr>
+        <tr>
+            <td>phone:</td>
+            <td><input type="phone" placeholder="Phone" name="phone"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Submit"> </td>
+        </tr>
+
+
+    </table><hr>
+    </div>
+    <h4>New Form creation</h4>
+    
+    </form>
+
+<!--for & id & name will be same,why because it is linking -->
+    <form>
+        <div style="background-color: peru;"
+        <label for="firstname"> First Name </label>
+        <input type="text" id="firstname" placeholder="First Name" name="firstname"> <br>
+        
+        <label for="lastname"> Last Name </label>
+        <input type="text" id="lastname" placeholder="Last Name" name="lastname" ><br>
+
+        <label for="email"> Email </label>
+        <input type="email" id="email" placeholder="Email" name="email"><br>
+
+        <label for="ps"> Password </label>
+        <input type="password" id="ps" placeholder="Password" name="ps"><br>
+        
+        <label for="phone"> Phone </label>
+        <input type="phone" id="phone" placeholder="Phone Number" name="phone"><br>
+
+        <label for="gender"> Gender </label>
+
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="any" name="gender" value="any">
+        <label for="any">Any</label><br>
+        
+        <label for="color">Color</label><br>
+        
+        <input type="checkbox" name="color" id="white">
+        <label for="white">White</label>
+
+        <input type="checkbox" name="color" id="color">
+        <label for="red">Red</label>
+
+        <!--input type="submit" value="Submit"-->
+        <button>
+            submit
+        </button>
+
+        <style>
+            button {
+                background-color: black;
+                color: aqua;
+            }
+        </style>
+        </div>
+    </form>                  
+
+</body>
+</html>
+
